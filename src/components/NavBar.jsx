@@ -1,11 +1,12 @@
+import React from 'react';
 import { Link } from 'react-router-dom';
 export default function NavBar() {
   return (
-    <div className="text-red-500">
+    <div className="bg-cyan-300 rounded-md m-1">
       <ul className=" flex justify-around">
         <li>
           <Link to="/" className="hover:underline">
-            Home
+            Jogo da Velha
           </Link>
         </li>
         <li>
